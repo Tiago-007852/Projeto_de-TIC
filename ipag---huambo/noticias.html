@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias | IPAG Huambo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span>🎓</span> IPAG
+            </a>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="noticias.html" class="active">Notícias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Notícias e Avisos</h2>
+            <div style="display: flex; flex-direction: column; gap: 2rem;">
+                <!-- Notícia 1 -->
+                <article style="display: flex; gap: 2rem; background: white; border-radius: 0.5rem; overflow: hidden; box-shadow: var(--shadow); flex-wrap: wrap;">
+                    <img src="https://images.unsplash.com/photo-1450101496173-78a930373d1c?q=80&w=2070&auto=format&fit=crop" style="width: 300px; height: 200px; object-fit: cover;" referrerPolicy="no-referrer">
+                    <div style="padding: 1.5rem; flex: 1;">
+                        <span style="font-size: 0.8rem; color: var(--secondary-color); font-weight: bold;">04 MAIO, 2026</span>
+                        <h3 style="margin: 0.5rem 0; color: var(--primary-color);">Renovação de Matrículas para Alunos Atuais</h3>
+                        <p style="margin-bottom: 1rem;">O processo de renovação automática já está disponível através do portal do aluno. Lembramos que o prazo termina no final do mês.</p>
+                        <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ler notícia completa</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 2 -->
+                <article style="display: flex; gap: 2rem; background: white; border-radius: 0.5rem; overflow: hidden; box-shadow: var(--shadow); flex-wrap: wrap;">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop" style="width: 300px; height: 200px; object-fit: cover;" referrerPolicy="no-referrer">
+                    <div style="padding: 1.5rem; flex: 1;">
+                        <span style="font-size: 0.8rem; color: var(--secondary-color); font-weight: bold;">01 MAIO, 2026</span>
+                        <h3 style="margin: 0.5rem 0; color: var(--primary-color);">Resultados das Olimpíadas de Matemática</h3>
+                        <p style="margin-bottom: 1rem;">Nossos alunos do 10º ano conquistaram 3 medalhas de ouro na competição regional. Parabéns a todos pelo esforço e dedicação!</p>
+                        <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ler notícia completa</a>
+                    </div>
+                </article>
+
+                <!-- Notícia 3 -->
+                <article style="display: flex; gap: 2rem; background: white; border-radius: 0.5rem; overflow: hidden; box-shadow: var(--shadow); flex-wrap: wrap;">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop" style="width: 300px; height: 200px; object-fit: cover;" referrerPolicy="no-referrer">
+                    <div style="padding: 1.5rem; flex: 1;">
+                        <span style="font-size: 0.8rem; color: var(--secondary-color); font-weight: bold;">25 ABRIL, 2026</span>
+                        <h3 style="margin: 0.5rem 0; color: var(--primary-color);">Celebrando a Liberdade na Nossa Escola</h3>
+                        <p style="margin-bottom: 1rem;">O auditório recebeu diversas apresentações artísticas dos alunos para comemorar o Dia da Liberdade. Veja a galeria de fotos.</p>
+                        <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ler notícia completa</a>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Paginação simples -->
+            <div style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 3rem;">
+                <a href="#" style="padding: 0.5rem 1rem; border: 1px solid var(--primary-color); background: var(--primary-color); color: white; border-radius: 0.25rem;">1</a>
+                <a href="#" style="padding: 0.5rem 1rem; border: 1px solid #ddd; color: var(--text-color); border-radius: 0.25rem;">2</a>
+                <a href="#" style="padding: 0.5rem 1rem; border: 1px solid #ddd; color: var(--text-color); border-radius: 0.25rem;">3</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>IPAG - Huambo</h3>
+            </div>
+            <div class="footer-section">
+                <h3>Contactos</h3>
+                <p>📍 Avenida da Educação, 123</p>
+                <p>📞 +351 210 000 000</p>
+                <p>✉️ info@ipag.edu.ao</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 IPAG - Instituto Politécnico de Administração e Gestão do Huambo.
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>

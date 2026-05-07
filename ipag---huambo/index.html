@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPAG | Início</title>
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span>🎓</span> IPAG
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>IPAG - Huambo</h1>
+            <p>Instituto Politécnico de Administração e Gestão do Huambo. Preparamos os nossos alunos para os desafios do mundo moderno com um ensino técnico de excelência.</p>
+            <a href="cursos.html" class="btn">Conheça nossos cursos</a>
+        </section>
+
+        <section id="destaques">
+            <h2>Destaques da Semana</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop" alt="Matrículas abertas" class="card-img" referrerPolicy="no-referrer">
+                    <div class="card-content">
+                        <h3 class="card-title">Matrículas 2026</h3>
+                        <p>O período de matrículas para o próximo ano lectivo já começou. Garanta a sua vaga!</p>
+                        <a href="noticias.html" style="color: var(--secondary-color); font-weight: bold; text-decoration: none;">Ler mais →</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1804&auto=format&fit=crop" alt="Feira de Ciências" class="card-img" referrerPolicy="no-referrer">
+                    <div class="card-content">
+                        <h3 class="card-title">Feira de Ciências</h3>
+                        <p>Participe na nossa feira anual onde os alunos apresentam as suas inovações e descobertas.</p>
+                        <a href="noticias.html" style="color: var(--secondary-color); font-weight: bold; text-decoration: none;">Ler mais →</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop" alt="Novos Lab de Informática" class="card-img" referrerPolicy="no-referrer">
+                    <div class="card-content">
+                        <h3 class="card-title">Novos Lab de Informática</h3>
+                        <p>Acabamos de inaugurar dois novos laboratórios equipados com tecnologia de ponta.</p>
+                        <a href="noticias.html" style="color: var(--secondary-color); font-weight: bold; text-decoration: none;">Ler mais →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="eventos" style="background-color: var(--bg-light);">
+            <h2>Próximos Eventos</h2>
+            <div class="grid">
+                <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: center; box-shadow: var(--shadow);">
+                    <div style="background: var(--primary-color); color: white; padding: 1rem; border-radius: 0.5rem; text-align: center; min-width: 80px;">
+                        <span style="display: block; font-size: 1.5rem; font-weight: bold;">15</span>
+                    <span style="font-size: 0.8rem; text-transform: uppercase;">Maio</span>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.25rem;">Reunião de Pais e Mestres</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.7;">Auditório Principal às 18:00</p>
+                    </div>
+                </div>
+
+                <div style="background: white; padding: 1.5rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: center; box-shadow: var(--shadow);">
+                    <div style="background: var(--secondary-color); color: white; padding: 1rem; border-radius: 0.5rem; text-align: center; min-width: 80px;">
+                        <span style="display: block; font-size: 1.5rem; font-weight: bold;">22</span>
+                        <span style="font-size: 0.8rem; text-transform: uppercase;">Maio</span>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.25rem;">Torneio Inter-Escolar</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.7;">Campo de Desportos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>IPAG - Huambo</h3>
+                <p>Instituto Politécnico de Administração e Gestão do Huambo. Educação de qualidade para formar profissionais competentes.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre a Escola</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contactos</h3>
+                <p>📍 Avenida da Educação, 123</p>
+                <p>📞 +351 210 000 000</p>
+                <p>✉️ info@ipag.edu.ao</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 IPAG - Instituto Politécnico de Administração e Gestão do Huambo.
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
