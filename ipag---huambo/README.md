@@ -6,7 +6,7 @@ Este documento fornece uma visão geral e instruções de utilização para o si
 
 ## 🚀 Visão Geral do Site
 
-O site foi desenvolvido para ser uma plataforma informativa moderna, rápida e responsiva, destinada a estudantes, encarregados de educação e a comunidade em geral. O foco principal é a divulgação dos **Cursos Médios Técnicos** oferecidos pela instituição. 
+O site foi desenvolvido para ser uma plataforma informativa moderna, rápida e responsiva, destinada a estudantes, encarregados de educação e a comunidade em geral. O foco principal é a divulgação dos **Cursos Médios Técnicos** oferecidos pela instituição.
 
 ## 📂 Estrutura de Navegação
 
